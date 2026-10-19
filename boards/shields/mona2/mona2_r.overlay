@@ -12,7 +12,6 @@
      */
     // COROPIT用の変更
     input-processors =
-        <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
         <&mouse_runtime_input_processor>;
 
     /* Layer 2 をスクロールレイヤーにする設定 */
