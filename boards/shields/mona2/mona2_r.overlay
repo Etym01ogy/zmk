@@ -10,9 +10,11 @@
     /* 通常カーソル移動用の runtime input processor
      * 軸反転はここで統一管理（Kconfig の PMW3610_INVERT_X/Y は使用しない）
      */
-    // COROPIT用の変更
+
     input-processors =
+        <&zip_xy_transform INPUT_TRANSFORM_X_INVERT>,
         <&mouse_runtime_input_processor>;
+
 
     /* Layer 2 をスクロールレイヤーにする設定 */
     scroller {
