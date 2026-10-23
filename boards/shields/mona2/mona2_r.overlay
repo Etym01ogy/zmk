@@ -18,7 +18,7 @@
 
     /* Layer 2 をスクロールレイヤーにする設定 */
     scroller {
-        layers = <2>;
+        layers = <3 4>;
         input-processors = 
             // <&zip_xy_transform INPUT_TRANSFORM_XY_SWAP>,     //X軸とY軸の入れ替え
             <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
