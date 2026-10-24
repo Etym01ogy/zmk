@@ -68,7 +68,7 @@
             label = "TD_L4";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&none>, <&tog 4>;
+            bindings = <&kp MINUS>, <&tog 4>;
         };
     };
 
@@ -88,7 +88,7 @@
 
         layer_1 {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN      &kp HASH    &kp CARET         &kp PERCENT                          &kp CARET       &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp EXCLAMATION  &kp AT_SIGN      &kp HASH    &kp DOLLAR        &kp PERCENT                          &kp CARET       &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp ESCAPE       &curly_brackets  &kp DELETE  &square_brackets  &kp SQT                      &trans  &kp MINUS       &kp EQUAL      &kp GRAVE      &kp NON_US_BACKSLASH  &kp COLON
 &kp LC(Z)        &kp LC(X)        &kp LC(C)   &kp LC(V)         &kp DOUBLE_QUOTES  &trans    &trans  &kp UNDERSCORE  &kp PLUS       &kp LESS_THAN  &kp GREATER_THAN      &kp QUESTION
 &trans           &trans           &trans      &trans            &trans             &trans    &trans  &trans                                                              &kp PIPE
